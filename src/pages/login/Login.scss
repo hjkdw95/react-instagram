@@ -1,11 +1,11 @@
 /* base */
-@import url("/src/components/base/common.scss");
-@import url("/src/components/base/fonts.scss");
-@import url("/src/components/base/layouts.scss");
+@import "/src/components/base/common.scss";
+@import "/src/components/base/fonts.scss";
+@import "/src/components/base/layouts.scss";
 
 /* modules */
-@import url("/src/components/modules/forms.scss");
-@import url("/src/components/modules/buttons.scss");
+@import "/src/components/modules/forms.scss";
+@import "/src/components/modules/buttons.scss";
 
 /* components */
-@import url("./loginBox/loginBox.scss");
+@import "./loginBox/loginBox.scss";

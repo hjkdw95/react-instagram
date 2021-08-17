@@ -9,20 +9,19 @@
   margin-left: 22px;
   cursor: pointer;
 
-  .medium {
+  &.medium {
     width: 36px;
     height: 36px;
-    background-image: linear-gradient(to bottom right, #f58529 20%, #c42d91);
     margin: 0;
+    background: linear-gradient(to bottom right, #f58529 20%, #c42d91);
   }
 
-  .large {
+  &.large {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
-    background-image: linear-gradient(to bottom right, #f58529 20%, #c42d91);
     margin: 0;
     margin-bottom: 8px;
+    background: linear-gradient(to bottom right, #f58529 20%, #c42d91);
   }
 }
 
@@ -32,12 +31,12 @@
   border-radius: 50%;
   border: 2px solid #fff;
 
-  .medium {
+  &.medium {
     width: 32px;
     height: 32px;
   }
 
-  .large {
+  &.large {
     width: 66px;
     height: 66px;
   }

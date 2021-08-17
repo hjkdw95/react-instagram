@@ -34,20 +34,20 @@
 }
 
 .homeBtn {
-  background-image: url("/src/assets/icons/house-black-silhouette-without-door.png");
+  background-image: url("../../assets/icons/house-black-silhouette-without-door.png");
 
   .focus {
-    background-image: url("/src/assets/icons/home.svg");
+    background-image: url("../../assets/icons/home.svg");
     background-color: transparent;
   }
 }
 
 .dmBtn {
-  background-image: url("/src/assets/icons/send.png");
+  background-image: url("../../assets/icons/send.png");
 }
 
 .recommendBtn {
-  background-image: url("/src/assets/icons/compass.png");
+  background-image: url("../../assets/icons/compass.png");
 }
 
 .statusBtn {
@@ -58,7 +58,7 @@
   font-size: 22px;
   cursor: pointer;
 
-  .small_icon {
+  &.small_icon {
     font-size: 12px;
   }
 }
@@ -68,24 +68,24 @@
 }
 
 .comment {
-  background-image: url("/src/assets/icons/commentary.png");
+  background-image: url("../../assets/icons/commentary.png");
 }
 
 .bookmark {
-  background-image: url("/src/assets/icons/bookmark.png");
+  background-image: url("../../assets/icons/bookmark.png");
 }
 
 .details {
-  background-image: url("/src/assets/icons/more.png");
+  background-image: url("../../assets/icons/more.png");
 }
 
 .emoji {
-  background-image: url("/src/assets/icons/smile.png");
+  background-image: url("../../assets/icons/smile.png");
   cursor: pointer;
 }
 
 .showNext {
-  background-image: url("/src/assets/icons/next.png");
+  background-image: url("../../assets/icons/next.png");
   border-radius: 50%;
   border: 2px solid #fff;
   background-size: contain;
@@ -96,7 +96,7 @@
 }
 
 .tagged {
-  background-image: url("/src/assets/icons/profile-user.png");
+  background-image: url("../../assets/icons/profile-user.png");
 }
 
 /* buttons */

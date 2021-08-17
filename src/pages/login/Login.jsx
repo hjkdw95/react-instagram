@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
-export default class Login extends Component {
+class Login extends Component {
+  goToMain = () => {
+    this.props.history.push("/main");
+  };
+
   render() {
     return (
       <div className="loginContainer">
@@ -12,14 +16,16 @@ export default class Login extends Component {
         <form className="userInfo">
           <input type="email" className="userID" placeholder="전화번호, 사용자 이름 또는 이메일" aria-label="Write account ID" />
           <input type="password" className="userPW" placeholder="비밀번호" aria-label="Write accout password" />
-          <button type="button" className="loginBtn" aria-label="login">
-            <Link to="/main">로그인</Link>
+          <button type="button" className="loginBtn" aria-label="login" onClick={this.goToMain}>
+            로그인
           </button>
         </form>
         <div className="helpLink" aria-label="help desk">
-          <a href="#">비밀번호를 잊으셨나요?</a>
+          <Link to="">비밀번호를 잊으셨나요?</Link>
         </div>
       </div>
     );
   }
 }
+
+export default withRouter(Login);

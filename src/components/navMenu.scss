@@ -68,10 +68,23 @@
 .menuName {
   padding: 8px 16px;
   cursor: pointer;
-}
 
-.menuName:last-child {
-  border-top: 1px solid rgb(219, 219, 219);
+  &:last-child {
+    border-top: 1px solid rgb(219, 219, 219);
+  }
+
+  /* nav menu hover */
+  &:hover {
+    background-color: #fafafa;
+  }
+
+  &:first-child:hover {
+    border-radius: 6px 6px 0 0;
+  }
+
+  &:last-child:hover {
+    border-radius: 0 0 6px 6px;
+  }
 }
 
 .menuDetail {
@@ -81,17 +94,4 @@
 
 .menuIcon {
   margin-right: 12px;
-}
-
-/* nav menu hover */
-.menuName:hover {
-  background-color: #fafafa;
-}
-
-.menuName:first-child:hover {
-  border-radius: 6px 6px 0 0;
-}
-
-.menuName:last-child:hover {
-  border-radius: 0 0 6px 6px;
 }

@@ -1,19 +1,19 @@
 /* base */
-@import url("/src/components/base/layouts.css");
-@import url("/src/components/base/fonts.css");
-@import url("/src/components/base/common.css");
+@import url("/src/components/base/layouts.scss");
+@import url("/src/components/base/fonts.scss");
+@import url("/src/components/base/common.scss");
 
 /* modules */
-@import url("/src/components/modules/forms.css");
-@import url("/src/components/modules/buttons.css");
-@import url("/src/components/modules/accountImg.css");
+@import url("/src/components/modules/forms.scss");
+@import url("/src/components/modules/buttons.scss");
+@import url("/src/components/modules/accountImg.scss");
 
 /* components */
-@import url("/src/components/navMenu.css");
-@import url("/src/components/navBar.css");
-@import url("/src/components/storyFeed.css");
-@import url("/src/components/contents/contentHeader.css");
-@import url("/src/components/contents/mainContents.css");
-@import url("/src/components/contents/comments.css");
-@import url("/src/components/sideBar.css");
-@import url("/src/components/searchBar.css");
+@import url("/src/components/navMenu.scss");
+@import url("/src/components/navBar.scss");
+@import url("/src/components/storyFeed.scss");
+@import url("/src/components/contents/contentHeader.scss");
+@import url("/src/components/contents/mainContents.scss");
+@import url("/src/components/contents/comments.scss");
+@import url("/src/components/sideBar.scss");
+@import url("/src/components/searchBar.scss");

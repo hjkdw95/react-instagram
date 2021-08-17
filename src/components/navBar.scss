@@ -14,12 +14,12 @@ nav.content-box {
   margin: 0 auto;
 }
 
-.icons .icon {
-  margin-left: 22px;
-}
-
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .icon {
+    margin-left: 22px;
+  }
 }

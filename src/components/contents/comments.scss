@@ -11,10 +11,10 @@
 .giveReaction {
   display: flex;
   justify-content: space-between;
-}
 
-.giveReaction .icon {
-  margin-right: 16px;
+  .icon {
+    margin-right: 16px;
+  }
 }
 
 /* likes */
@@ -38,11 +38,11 @@
   justify-content: space-between;
   margin-bottom: 4px;
   cursor: pointer;
-}
 
-.reply:hover {
-  background-color: #0094f6;
-  opacity: 0.4;
+  &:hover {
+    background-color: #0094f6;
+    opacity: 0.4;
+  }
 }
 
 .pastDay {
@@ -56,21 +56,21 @@
   align-items: center;
   height: 55px;
   padding: 0 16px;
-}
 
-.commentForm .icon {
-  padding-right: 16px;
-  margin-right: 16px;
+  .icon {
+    padding-right: 16px;
+    margin-right: 16px;
+  }
 }
 
 .commentInput {
   width: 100%;
   border: none;
   background-color: transparent;
-}
 
-.commentInput::placeholder {
-  font-size: 14px;
-  line-height: 18px;
-  color: rgb(142, 142, 142);
+  &::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(142, 142, 142);
+  }
 }

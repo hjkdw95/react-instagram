@@ -2,7 +2,14 @@
 .storyFeed {
   position: relative;
   width: 600px;
+
+  .showNext {
+    position: absolute;
+    top: 40%;
+    left: 560px;
+  }
 }
+
 .stories {
   display: flex;
   justify-content: flex-start;
@@ -13,12 +20,6 @@
 
 .story {
   margin: 0 5px;
-}
-
-.storyFeed .showNext {
-  position: absolute;
-  top: 40%;
-  left: 560px;
 }
 
 .storyWrapper {

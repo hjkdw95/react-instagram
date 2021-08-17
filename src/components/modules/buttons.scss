@@ -6,17 +6,17 @@
   color: #fff;
   background-color: #c0dffd;
   border-radius: 4px;
-}
 
-.loginBtn.active {
-  background-color: #0095f6;
-  cursor: pointer;
-  font-weight: bold;
-}
+  .active {
+    background-color: #0095f6;
+    cursor: pointer;
+    font-weight: bold;
+  }
 
-.loginBtn a {
-  display: block;
-  padding: 0;
+  a {
+    display: block;
+    padding: 0;
+  }
 }
 
 /* icons */
@@ -35,11 +35,11 @@
 
 .homeBtn {
   background-image: url("/src/assets/icons/house-black-silhouette-without-door.png");
-}
 
-.homeBtn.focus {
-  background-image: url("/src/assets/icons/home.svg");
-  background-color: transparent;
+  .focus {
+    background-image: url("/src/assets/icons/home.svg");
+    background-color: transparent;
+  }
 }
 
 .dmBtn {
@@ -57,10 +57,10 @@
 .heartBtn {
   font-size: 22px;
   cursor: pointer;
-}
 
-.heartBtn.small_icon {
-  font-size: 12px;
+  .small_icon {
+    font-size: 12px;
+  }
 }
 
 .fas.fa-heart {

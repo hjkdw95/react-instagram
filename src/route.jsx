@@ -9,6 +9,7 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
+          {/* 바뀔 것들을 switch아래에다가 작성한다 */}
           <Route exact path="/" component={Login} />
           <Route exact path="/main" component={Main} />
         </Switch>

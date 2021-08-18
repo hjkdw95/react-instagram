@@ -6,14 +6,15 @@
 /* modules */
 @import "/src/components/modules/forms.scss";
 @import "/src/components/modules/buttons.scss";
-@import "/src/components/modules/accountImg.scss";
+@import "/src/components/modules/profileImg.scss";
 
 /* components */
 @import "/src/components/navMenu.scss";
-@import "/src/components/navBar.scss";
+@import "/src/components/navHeader.scss";
 @import "/src/components/storyFeed.scss";
 @import "/src/components/contents/contentHeader.scss";
+@import "/src/components/contents/commentForm.scss";
 @import "/src/components/contents/mainContents.scss";
-@import "/src/components/contents/comments.scss";
+@import "/src/components/contents/detailWrapper.scss";
 @import "/src/components/sideBar.scss";
 @import "/src/components/searchBar.scss";
